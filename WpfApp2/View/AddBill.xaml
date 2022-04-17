@@ -1,0 +1,662 @@
+﻿<Page x:Class="WpfApp2.View.AddBill"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+     xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+      xmlns:local="clr-namespace:WpfApp2.View"
+   
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+        x:Name="wdAddBill"
+      d:DesignHeight="500" d:DesignWidth="910"
+       DataContext="{StaticResource AddBillVM}"
+      Title="AddBill">
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="100*"/>
+            <ColumnDefinition Width="50*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="50*"></RowDefinition>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   FontSize="20" 
+                   FontFamily="Roboto"
+                   Margin="108.8,5,104,4"
+                   FontWeight="SemiBold"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center" 
+                   Grid.Column="1"
+                   Text="THÊM HOÁ ĐƠN"
+                   Foreground="White">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="2"
+                                  Direction="315"
+                                  Color="Black"
+                                  Opacity="0.8"/>
+            </TextBlock.Effect>
+        </TextBlock>
+
+        <!--Nút backward-->
+        <Button
+            HorizontalAlignment="Left"
+            x:Name="btnbackward"
+            Background="White"
+            BorderBrush="White"
+            VerticalAlignment="Center"
+            Height="25" Width="25"
+            Margin="5"
+            Command="{x:Static NavigationCommands.BrowseBack}"
+            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+            <materialDesign:PackIcon
+                Kind="KeyboardArrowLeft"
+                Height="20"
+                Width="20"
+                Foreground="Black"/>
+        </Button>
+        <!--Nút forward-->
+        <Button
+            HorizontalAlignment="Left"
+            Background="White"
+            BorderBrush="White"
+            VerticalAlignment="Center"
+            Command="{x:Static NavigationCommands.BrowseForward}"
+            Height="25" Width="25"
+            Margin="35 0 0 0"
+            
+            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+            <materialDesign:PackIcon
+                Kind="KeyboardArrowRight"
+                Height="20"
+                Width="20" 
+                />
+        </Button>
+        <!--Nút refresh-->
+        <Button HorizontalAlignment="Left"
+                Background="White"
+                BorderBrush="White"
+                VerticalAlignment="Center"
+                Height="25" Width="25"
+                Command="{Binding ResetCommand}"
+                CommandParameter="{Binding ElementName=wdAddBill}"
+                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                Margin="65,0,0,0">
+            <materialDesign:PackIcon
+                Kind="Refresh"
+                Height="20"
+                Width="20" />
+        </Button>
+
+        <Grid Grid.Row="1"
+              Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <ComboBox HorizontalAlignment="Stretch"
+                          VerticalAlignment="Stretch"
+                          FontFamily="Roboto"
+                          HorizontalContentAlignment="Left"
+                          Padding="0 0 4 0"
+                          VerticalContentAlignment="Center"
+                          materialDesign:HintAssist.Hint="Tên khách hàng" 
+                          Foreground="#DDDDDD"
+                          materialDesign:ThemeAssist.Theme="Dark"
+                          FontWeight="Bold"
+                          ItemsSource="{Binding Path=ListCustomer}"
+                          SelectedValue="{Binding Cus}"
+                          Name="cuschoosen"
+                          FontSize="13"
+                          DisplayMemberPath="Name"
+                          Margin="20,5,35,5"/>
+                <Button Command="{Binding AddCustomerCommand}"
+                        CommandParameter="{Binding ElementName=wdAddBill}"
+                        FontWeight="Bold"
+                        Foreground="White"
+                        BorderBrush="White"
+                        BorderThickness="1"
+                        FontSize="15"
+                        Padding="0"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Right"
+                        FontFamily="Roboto"
+                        Height="30"
+                        Width="20"
+                        Content="+"
+                        Margin="0 17 10 0"/>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <TextBox Grid.Row="1"
+                         FontFamily="Roboto"
+                         HorizontalContentAlignment="Left"
+                         Padding="0 0 4 0"
+                         VerticalContentAlignment="Center"
+                         Text="{Binding Cus.Phone}"
+                         FontWeight="Bold"
+                         materialDesign:HintAssist.Hint="Số điện thoại"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                         Foreground="#DDDDDD"
+                          materialDesign:ThemeAssist.Theme="Dark"
+                         FontSize="13"
+                         Margin="20 5 10 5"/>
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <ComboBox materialDesign:HintAssist.Hint="Chọn sản phẩm"
+                          HorizontalAlignment="Stretch"
+                          VerticalAlignment="Stretch"
+                          FontFamily="Roboto"
+                          FontWeight="Bold"
+                          Padding="0 0 4 0"
+                          HorizontalContentAlignment="Left"
+                          VerticalContentAlignment="Center"
+                          ItemsSource="{Binding ListProDuct}"
+                          SelectedItem="{Binding Product}"
+                          DisplayMemberPath="Name"
+                          x:Name="productchoosen"
+                          Margin="20 5 10 5"
+                          Foreground="#DDDDDD"
+                          FontSize="13"
+                          materialDesign:ThemeAssist.Theme="Dark">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="SelectionChanged">
+                            <i:InvokeCommandAction Command="{Binding ProductChoosenCommand}" 
+                                                   CommandParameter="{Binding ElementName=wdAddBill}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </ComboBox>
+
+            </Grid>
+
+            <Grid Grid.Row="3">
+                <ComboBox ItemsSource="{Binding ListUserRole}"
+                          materialDesign:HintAssist.Hint="Người thực hiện"
+                          DisplayMemberPath="DisplayName"
+                          FontFamily="Roboto"
+                          HorizontalContentAlignment="Left"
+                          Padding="0 0 4 0"
+                          VerticalContentAlignment="Center"
+                          SelectedItem="{Binding User}"
+                          FontWeight="Bold"
+                          HorizontalAlignment="Stretch" 
+                          VerticalAlignment="Stretch"
+                          x:Name="Authority"
+                          Margin="20 5 10 5"
+                          Foreground="#DDDDDD"
+                          FontSize="13"
+                          materialDesign:ThemeAssist.Theme="Dark"/>
+
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="1"
+              Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0"
+                  Grid.Column="0">
+                <TextBox Text="{Binding Count}"
+                         FontFamily="Roboto"
+                         FontWeight="Bold"
+                         FontSize="15"
+                         Name="Count"
+                         materialDesign:HintAssist.Hint="Số lượng"
+                         Padding="0 0 4 0"
+                         Foreground="#DDDDDD"
+                          materialDesign:ThemeAssist.Theme="Dark"
+                         HorizontalContentAlignment="Left"
+                         VerticalContentAlignment="Center"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         HorizontalAlignment="Stretch"
+                         VerticalAlignment="Bottom"
+                         RenderTransformOrigin="-0.256,-0.546"
+                         Height="70"
+                         Margin="20 0 60 20">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="TextChanged">
+                            <i:InvokeCommandAction Command="{Binding CountsChoosenCommand}" 
+                                                   CommandParameter="{Binding ElementName=wdAddBill}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </TextBox>
+
+                <DockPanel HorizontalAlignment="Right"
+                           Height="40" 
+                           Width="40"
+                           LastChildFill="False"
+                           VerticalAlignment="Bottom"  
+                           Margin="10 0 10 20">
+                    <Button Command="{Binding DecreaCountCommand}"
+                            CommandParameter="{Binding ElementName=wdAddBill}"
+                            DockPanel.Dock="Top"
+                            FontFamily="Marlett" FontSize="10" 
+                            Height="20"
+                            Width="40"
+                            Content="5"
+                            Foreground="White"
+                            BorderBrush="White"
+                            BorderThickness="1">
+                    </Button>
+                    <Button Command="{Binding IncreaCountCommand}"
+                            CommandParameter="{Binding ElementName=wdAddBill}"
+                            Height="20"
+                            Width="40"
+                            DockPanel.Dock="Bottom"
+                            FontFamily="Marlett" FontSize="10"
+                            Content="6"
+                            Foreground="White"
+                            BorderBrush="White"
+                            BorderThickness="1">
+                    </Button>
+                </DockPanel>
+            </Grid>
+
+            <Grid Grid.Row="0"
+                  Grid.Column="1">
+                <TextBox Text="{Binding GiveAway}"
+                         FontFamily="Roboto"
+                         FontWeight="Bold"
+                         FontSize="15"
+                         materialDesign:HintAssist.Hint="Tặng"
+                         Padding="0 0 4 0"
+                         Foreground="#DDDDDD"
+                          materialDesign:ThemeAssist.Theme="Dark"                     
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                         HorizontalAlignment="Stretch"
+                         VerticalAlignment="Bottom"
+                         HorizontalContentAlignment="Left"
+                         VerticalContentAlignment="Center"
+                         Height="70"
+                         Margin="20 0 40 20"/>
+            </Grid>
+
+            <Grid Grid.Row="1"
+                  Grid.Column="0">
+                <TextBox Text="{Binding OriginalPrize}"
+                         IsEnabled="False"
+                         FontFamily="Roboto"
+                         FontWeight="Regular"
+                         x:Name="OriginalPrize"
+                         FontSize="15"
+                         materialDesign:HintAssist.Hint="Giá gốc"
+                         Padding="0 6 4 0"
+                         Foreground="#DDDDDD"
+                          materialDesign:ThemeAssist.Theme="Dark"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         RenderTransformOrigin="-0.256,-0.546"
+                         HorizontalAlignment="Stretch"
+                         VerticalAlignment="Stretch"
+                         Margin="20 5 10 40">
+                    <TextBox.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="0.091"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </TextBox.RenderTransform>
+                </TextBox>
+
+            </Grid>
+
+            <Grid Grid.Row="1"
+                  Grid.Column="1">
+                <TextBox Text="{Binding FinalPrize}"
+                         x:Name="FinalPrize"
+                         IsEnabled="False"
+                         FontFamily="Roboto"
+                         FontWeight="Regular"
+                         FontSize="15"
+                         materialDesign:HintAssist.Hint="Giá bán"
+                         Padding="0 6 4 0"
+                         Foreground="#DDDDDD"
+                          materialDesign:ThemeAssist.Theme="Dark"   
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                         Margin="20 5 20 40">
+                    <TextBox.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="-0.076"/>
+                            <RotateTransform Angle="-360.385"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </TextBox.RenderTransform>
+                </TextBox>
+
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="1"
+              Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <ComboBox Grid.Row="0"
+                      ItemsSource="{Binding ListEventSale}"
+                      materialDesign:HintAssist.Hint="Sự kiện giảm giá"
+                      DisplayMemberPath="Name"
+                      FontWeight="Bold"
+                      FontSize="15"
+                      FontFamily="Roboto"
+                      Padding="0 0 6 0"
+                      SelectedItem="{Binding EventSale}"
+                      HorizontalAlignment="Stretch" 
+                      HorizontalContentAlignment="Center"
+                      VerticalAlignment="Bottom"
+                      VerticalContentAlignment="Center"
+                      Margin="-10,0,20,20" 
+                      Name="eventsalechoosen" 
+                      RenderTransformOrigin="1.386,0.537" 
+                      Height="40"
+                      Foreground="#DDDDDD"
+                      materialDesign:ThemeAssist.Theme="Dark">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="SelectionChanged">
+                        <i:InvokeCommandAction Command="{Binding EventSaleChoosenCommand}" 
+                                               CommandParameter="{Binding ElementName=wdAddBill}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </ComboBox>
+        </Grid>
+
+
+        <Grid Grid.Row="2"
+              Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <RadioButton x:Name="inshop"
+                             Content="Mua tại Shop"
+                             FontFamily="Roboto"
+                             FontSize="20"
+                             FontWeight="SemiBold"
+                             HorizontalAlignment="Left"
+                             VerticalAlignment="Bottom" 
+                             RenderTransformOrigin="0.591,-0.624"
+                             GroupName="payment"
+                             IsChecked="false"
+                              Margin="20 0 0 10"
+                             Foreground="#DDDDDD"
+                             materialDesign:ThemeAssist.Theme="Dark">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="Checked">
+                            <i:InvokeCommandAction Command="{Binding InShopOptionCommand}" 
+                                                   CommandParameter="{Binding ElementName=wdAddBill}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </RadioButton>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <TextBox MaxLength="12"
+                         Text="{Binding MoneyTaken}"
+                         IsEnabled="False"
+                         x:Name="MoneyTK"
+                         FontFamily="Roboto"
+                         FontWeight="Bold"
+                         FontSize="15"
+                         materialDesign:HintAssist.Hint="Số tiền khách đưa"
+                         Padding="0 4 4 0"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         Margin="20 10 10 10"
+                         Foreground="#DDDDDD"
+                          materialDesign:ThemeAssist.Theme="Dark">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="TextChanged">
+                            <i:InvokeCommandAction Command="{Binding PaymentChoosenCommand}" 
+                                                   CommandParameter="{Binding ElementName=wdAddBill}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </TextBox>
+
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <TextBox x:Name="MoneyGB"   
+                         Text="{Binding MoneyGiveBack}"
+                         IsEnabled="False"
+                         FontFamily="Roboto"
+                         FontWeight="Bold"
+                         FontSize="15"
+                         materialDesign:HintAssist.Hint="Số tiền trả lại"
+                         Padding="0 4 4 0"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                         Margin="20 0 10 20"
+                         Foreground="#DDDDDD"
+                          materialDesign:ThemeAssist.Theme="Dark"/>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="2"
+              Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="60*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Row="0"
+                  Grid.Column="0"
+                  Grid.ColumnSpan="2">
+                <RadioButton x:Name="inship"
+                             Content="Giao hàng tận nơi"
+                             HorizontalAlignment="Left"
+                             VerticalAlignment="Bottom"
+                             FontSize="20"
+                             FontFamily="Roboto"
+                             FontWeight="SemiBold"
+                             GroupName="payment"
+                             IsChecked="False"
+                             Margin="20 0 0 10"
+                             Foreground="#DDDDDD"
+                             materialDesign:ThemeAssist.Theme="Dark">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="Checked">
+                            <i:InvokeCommandAction Command="{Binding ShipOptionCommand}" 
+                                                   CommandParameter="{Binding ElementName=wdAddBill}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+
+                </RadioButton>
+            </Grid>
+
+            <Grid Grid.Row="1"
+                  Grid.Column="0">
+                <TextBox MaxLines="10"
+                         MaxLength="12"
+                         HorizontalContentAlignment="Left"
+                         Padding="0 4 4 0"
+                         Text="{Binding Ship}"
+                         IsEnabled="False"
+                         x:Name="Ship"
+                         FontFamily="Roboto"
+                         FontWeight="Bold"
+                         FontSize="15"
+                         materialDesign:HintAssist.Hint="Tiền ship"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                         Foreground="#DDDDDD"
+                          materialDesign:ThemeAssist.Theme="Dark"
+                         Margin="20 10 10 10">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="TextChanged">
+                            <i:InvokeCommandAction Command="{Binding ShipChoosenCommand}" 
+                                                   CommandParameter="{Binding ElementName=wdAddBill}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+
+                </TextBox>
+            </Grid>
+
+            <Grid Grid.Row="2"
+                  Grid.Column="0">
+                <TextBox MaxLength="12"
+                         HorizontalContentAlignment="Left"
+                         Padding="0 4 4 0"
+                         Text="{Binding Deposit}"
+                         x:Name="Deposit"
+                         IsEnabled="False"
+                         FontFamily="Roboto"
+                         FontWeight="Bold"
+                         FontSize="15"
+                         materialDesign:HintAssist.Hint="Tiền cọc "
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                         Foreground="#DDDDDD"
+                          materialDesign:ThemeAssist.Theme="Dark"
+                         Margin="20 0 10 20">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="TextChanged">
+                            <i:InvokeCommandAction Command="{Binding DepositChoosenCommand}" 
+                                                   CommandParameter="{Binding ElementName=wdAddBill}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </TextBox>
+            </Grid>
+
+            <Grid Grid.Row="1"
+                  Grid.Column="1">
+                <TextBox Text="{Binding Cus.Address, Mode=TwoWay}"
+                         x:Name="Address"
+                         IsEnabled="False"
+                         HorizontalContentAlignment="Left"
+                         Padding="0 4 4 0"
+                         FontFamily="Roboto"
+                         FontWeight="Bold"
+                         FontSize="15"
+                         materialDesign:HintAssist.Hint="Địa chỉ giao hàng"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                         Foreground="#DDDDDD"
+                          materialDesign:ThemeAssist.Theme="Dark"
+                         Margin="10 10 20 10"/>
+            </Grid>
+
+            <Grid Grid.Row="2"
+                  Grid.Column="1">
+                <TextBox IsEnabled="False"
+                         HorizontalContentAlignment="Left"
+                         Padding="0 4 4 0"
+                         x:Name="Sum"
+                         Text="{Binding Sum}"
+                         FontFamily="Roboto"
+                         FontWeight="Bold"
+                         FontSize="15"
+                         materialDesign:HintAssist.Hint="Tổng đơn"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                         Foreground="#DDDDDD"
+                          materialDesign:ThemeAssist.Theme="Dark"
+                         Margin="10 0 20 20"/>
+
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Row="2"
+              Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="20"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="2">
+                <Button Command="{Binding AddEventSalePageCommand}"
+                        CommandParameter="{Binding ElementName=wdAddBill}"
+                        Content="Xem sự kiện"
+                        FontWeight="Bold"
+                        Foreground="#DDDDDD"
+                        FontSize="15"
+                        Padding="0"
+                        Background="#1D1D2C"
+                        FontFamily="Roboto"
+                        Height="40"
+                        Width="150"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Bottom"
+                        materialDesign:ButtonAssist.CornerRadius="5"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"
+                        Margin="0 0 20 0"
+                        BorderBrush="White">
+                </Button>
+            </Grid>
+
+            <Grid Grid.Row="4">
+                <Button Command="{Binding SaveBillCommand}"
+                        CommandParameter="{Binding ElementName=wdAddBill}" 
+                        Content="Thêm hóa đơn"
+                        FontWeight="Bold"
+                        FontSize="15"
+                        Padding="0"
+                        FontFamily="Roboto"
+                        materialDesign:ButtonAssist.CornerRadius="5"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"
+                        Height="40"
+                        Width="150"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Bottom"
+                        Margin="0 0 20 0"
+                        BorderBrush="White">
+                </Button>
+            </Grid>
+
+            <Grid Grid.Row="3">
+                <Button Command="{Binding AddSeeBillCommand}"
+                        CommandParameter="{Binding ElementName=wdAddBill}"
+                        Content="Xem hóa đơn"
+                        FontWeight="Bold"
+                        Foreground="#DDDDDD"
+                        FontSize="15"
+                        Padding="0"
+                        Background="#1D1D2C"
+                        FontFamily="Roboto"
+                        materialDesign:ButtonAssist.CornerRadius="5"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"
+                        Height="40"
+                        Width="150"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Bottom"
+                        Margin="0 0 20 0"
+                        BorderBrush="White"/>
+            </Grid>
+        </Grid>
+
+        <i:Interaction.Triggers>
+            <i:EventTrigger EventName="Loaded">
+                <i:InvokeCommandAction Command="{Binding LoadCommand}" 
+                                                   CommandParameter="{Binding ElementName=wdAddBill}"/>
+            </i:EventTrigger>
+        </i:Interaction.Triggers>
+    </Grid>
+</Page>

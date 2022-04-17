@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WpfApp2"
+                    xmlns:viewmodel="clr-namespace:WpfApp2.ViewModel">
+    <viewmodel:MainViewModel x:Key="MainVM"></viewmodel:MainViewModel>
+    <viewmodel:LoginViewModel x:Key="LoginVM"></viewmodel:LoginViewModel>
+    <viewmodel:DialogViewModel x:Key="DialogVM"></viewmodel:DialogViewModel>
+    <viewmodel:SignUpViewModel x:Key="SignUpVM"></viewmodel:SignUpViewModel>
+    <viewmodel:AddProductViewModel x:Key="AddProductVM"></viewmodel:AddProductViewModel>
+    <viewmodel:DashBoardViewModel x:Key="DashBoardVM"></viewmodel:DashBoardViewModel>
+    <viewmodel:ListProductViewModel x:Key="ListProductVM"></viewmodel:ListProductViewModel>
+    <viewmodel:AddCustomerViewModel x:Key="AddCustomerVM"></viewmodel:AddCustomerViewModel>
+    <viewmodel:AddBillViewModel x:Key="AddBillVM"></viewmodel:AddBillViewModel>
+    <viewmodel:AddEventVM x:Key="AddEventSaleVM"></viewmodel:AddEventVM>
+    <viewmodel:TypeProductViewModel x:Key="TypeProductVM"></viewmodel:TypeProductViewModel>
+    <viewmodel:ListBillDetailVM x:Key="ListBillDetailVM"></viewmodel:ListBillDetailVM>
+    <viewmodel:FinancialViewModel x:Key="FinancialVM"></viewmodel:FinancialViewModel>
+    <viewmodel:DataFromExcelViewModel x:Key="DataFromExcelVM"></viewmodel:DataFromExcelViewModel>
+    <viewmodel:HistoryViewModel x:Key="HistoryVM"></viewmodel:HistoryViewModel>
+    <viewmodel:ForgotPasswordViewModel x:Key="ForgotPassVM"></viewmodel:ForgotPasswordViewModel>
+
+
+</ResourceDictionary>

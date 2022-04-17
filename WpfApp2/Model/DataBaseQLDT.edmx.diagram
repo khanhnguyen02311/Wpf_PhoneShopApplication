@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="22bc9fb1db19418ba6526f936199bbab" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyDienThoaiModel.Bill" Width="1.5" PointX="5.25" PointY="1.75" />
+        <EntityTypeShape EntityType="QuanLyDienThoaiModel.Customer" Width="1.5" PointX="3" PointY="6" />
+        <EntityTypeShape EntityType="QuanLyDienThoaiModel.Detail_Bill" Width="1.5" PointX="7.5" PointY="1" />
+        <EntityTypeShape EntityType="QuanLyDienThoaiModel.Event_sale" Width="1.5" PointX="5.25" PointY="5.875" />
+        <EntityTypeShape EntityType="QuanLyDienThoaiModel.History" Width="1.5" PointX="7.75" PointY="5.75" />
+        <EntityTypeShape EntityType="QuanLyDienThoaiModel.Product" Width="1.5" PointX="5.25" PointY="8.875" />
+        <EntityTypeShape EntityType="QuanLyDienThoaiModel.ProductType" Width="1.5" PointX="3" PointY="9.375" />
+        <EntityTypeShape EntityType="QuanLyDienThoaiModel.sysdiagram" Width="1.5" PointX="7.75" PointY="8.75" />
+        <EntityTypeShape EntityType="QuanLyDienThoaiModel.UserRole" Width="1.5" PointX="0.75" PointY="2.125" />
+        <EntityTypeShape EntityType="QuanLyDienThoaiModel.User" Width="1.5" PointX="3" PointY="1.75" />
+        <AssociationConnector Association="QuanLyDienThoaiModel.fk_Bill_Customer" />
+        <AssociationConnector Association="QuanLyDienThoaiModel.fk_Bill_Users" />
+        <AssociationConnector Association="QuanLyDienThoaiModel.fk_DTBill_Bill" />
+        <AssociationConnector Association="QuanLyDienThoaiModel.fk_DTBill_Event" />
+        <AssociationConnector Association="QuanLyDienThoaiModel.fk_DTBill_Product" />
+        <AssociationConnector Association="QuanLyDienThoaiModel.fk_product_producttype" />
+        <AssociationConnector Association="QuanLyDienThoaiModel.FK__Users__IdRole__4BAC3F29" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

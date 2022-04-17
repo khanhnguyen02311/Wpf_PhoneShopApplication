@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QuanLyDienThoaiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="QuanLyDienThoaiEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Bills" EntityType="QuanLyDienThoaiModel.Bill" />
+    <EntitySet Name="Customers" EntityType="QuanLyDienThoaiModel.Customer" />
+    <EntitySet Name="Detail_Bill" EntityType="QuanLyDienThoaiModel.Detail_Bill" />
+    <EntitySet Name="Event_sale" EntityType="QuanLyDienThoaiModel.Event_sale" />
+    <EntitySet Name="Histories" EntityType="QuanLyDienThoaiModel.History" />
+    <EntitySet Name="Products" EntityType="QuanLyDienThoaiModel.Product" />
+    <EntitySet Name="ProductTypes" EntityType="QuanLyDienThoaiModel.ProductType" />
+    <EntitySet Name="sysdiagrams" EntityType="QuanLyDienThoaiModel.sysdiagram" />
+    <EntitySet Name="UserRoles" EntityType="QuanLyDienThoaiModel.UserRole" />
+    <EntitySet Name="Users" EntityType="QuanLyDienThoaiModel.User" />
+    <AssociationSet Name="fk_Bill_Customer" Association="QuanLyDienThoaiModel.fk_Bill_Customer">
+      <End Role="Customer" EntitySet="Customers" />
+      <End Role="Bill" EntitySet="Bills" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Bill_Users" Association="QuanLyDienThoaiModel.fk_Bill_Users">
+      <End Role="User" EntitySet="Users" />
+      <End Role="Bill" EntitySet="Bills" />
+    </AssociationSet>
+    <AssociationSet Name="fk_DTBill_Bill" Association="QuanLyDienThoaiModel.fk_DTBill_Bill">
+      <End Role="Bill" EntitySet="Bills" />
+      <End Role="Detail_Bill" EntitySet="Detail_Bill" />
+    </AssociationSet>
+    <AssociationSet Name="fk_DTBill_Event" Association="QuanLyDienThoaiModel.fk_DTBill_Event">
+      <End Role="Event_sale" EntitySet="Event_sale" />
+      <End Role="Detail_Bill" EntitySet="Detail_Bill" />
+    </AssociationSet>
+    <AssociationSet Name="fk_DTBill_Product" Association="QuanLyDienThoaiModel.fk_DTBill_Product">
+      <End Role="Product" EntitySet="Products" />
+      <End Role="Detail_Bill" EntitySet="Detail_Bill" />
+    </AssociationSet>
+    <AssociationSet Name="fk_product_producttype" Association="QuanLyDienThoaiModel.fk_product_producttype">
+      <End Role="ProductType" EntitySet="ProductTypes" />
+      <End Role="Product" EntitySet="Products" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Users__IdRole__4BAC3F29" Association="QuanLyDienThoaiModel.FK__Users__IdRole__4BAC3F29">
+      <End Role="UserRole" EntitySet="UserRoles" />
+      <End Role="User" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Bill">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IdCustomer" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Date_output_bill" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Status" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IdUsers" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Customer" Relationship="QuanLyDienThoaiModel.fk_Bill_Customer" FromRole="Bill" ToRole="Customer" />
+    <NavigationProperty Name="User" Relationship="QuanLyDienThoaiModel.fk_Bill_Users" FromRole="Bill" ToRole="User" />
+    <NavigationProperty Name="Detail_Bill" Relationship="QuanLyDienThoaiModel.fk_DTBill_Bill" FromRole="Bill" ToRole="Detail_Bill" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Bills" Relationship="QuanLyDienThoaiModel.fk_Bill_Customer" FromRole="Customer" ToRole="Bill" />
+  </EntityType>
+  <EntityType Name="Detail_Bill">
+    <Key>
+      <PropertyRef Name="IdBill" />
+      <PropertyRef Name="IdProduct" />
+    </Key>
+    <Property Name="IdBill" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="IdProduct" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Id_Event_sale" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="OriginPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="FinalPrice" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="MoneyTaken" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="MoneyExchange" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Amount_Buy" Type="Int32" Nullable="false" />
+    <Property Name="Amount_Given" Type="Int32" Nullable="false" />
+    <Property Name="Ship" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Moneywillget" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Deposit" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Bill" Relationship="QuanLyDienThoaiModel.fk_DTBill_Bill" FromRole="Detail_Bill" ToRole="Bill" />
+    <NavigationProperty Name="Event_sale" Relationship="QuanLyDienThoaiModel.fk_DTBill_Event" FromRole="Detail_Bill" ToRole="Event_sale" />
+    <NavigationProperty Name="Product" Relationship="QuanLyDienThoaiModel.fk_DTBill_Product" FromRole="Detail_Bill" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="Event_sale">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Datebegin" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Datefinish" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Percent_sale" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Detail_Bill" Relationship="QuanLyDienThoaiModel.fk_DTBill_Event" FromRole="Event_sale" ToRole="Detail_Bill" />
+  </EntityType>
+  <EntityType Name="History">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DisplayName" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TimeToLogIn" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Price" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="InitialAmount" Type="Int32" Nullable="false" />
+    <Property Name="CurrentAmount" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IdProductType" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ImagePath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Capital" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Detail_Bill" Relationship="QuanLyDienThoaiModel.fk_DTBill_Product" FromRole="Product" ToRole="Detail_Bill" />
+    <NavigationProperty Name="ProductType" Relationship="QuanLyDienThoaiModel.fk_product_producttype" FromRole="Product" ToRole="ProductType" />
+  </EntityType>
+  <EntityType Name="ProductType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="NumOfProduct" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Products" Relationship="QuanLyDienThoaiModel.fk_product_producttype" FromRole="ProductType" ToRole="Product" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DisplayName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="QuanLyDienThoaiModel.FK__Users__IdRole__4BAC3F29" FromRole="UserRole" ToRole="User" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DisplayName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IdRole" Type="Int32" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Bills" Relationship="QuanLyDienThoaiModel.fk_Bill_Users" FromRole="User" ToRole="Bill" />
+    <NavigationProperty Name="UserRole" Relationship="QuanLyDienThoaiModel.FK__Users__IdRole__4BAC3F29" FromRole="User" ToRole="UserRole" />
+  </EntityType>
+  <Association Name="fk_Bill_Customer">
+    <End Type="QuanLyDienThoaiModel.Customer" Role="Customer" Multiplicity="1" />
+    <End Type="QuanLyDienThoaiModel.Bill" Role="Bill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Bill">
+        <PropertyRef Name="IdCustomer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Bill_Users">
+    <End Type="QuanLyDienThoaiModel.User" Role="User" Multiplicity="1" />
+    <End Type="QuanLyDienThoaiModel.Bill" Role="Bill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Bill">
+        <PropertyRef Name="IdUsers" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_DTBill_Bill">
+    <End Type="QuanLyDienThoaiModel.Bill" Role="Bill" Multiplicity="1" />
+    <End Type="QuanLyDienThoaiModel.Detail_Bill" Role="Detail_Bill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bill">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Detail_Bill">
+        <PropertyRef Name="IdBill" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_DTBill_Event">
+    <End Type="QuanLyDienThoaiModel.Event_sale" Role="Event_sale" Multiplicity="0..1" />
+    <End Type="QuanLyDienThoaiModel.Detail_Bill" Role="Detail_Bill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Event_sale">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Detail_Bill">
+        <PropertyRef Name="Id_Event_sale" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_DTBill_Product">
+    <End Type="QuanLyDienThoaiModel.Product" Role="Product" Multiplicity="1" />
+    <End Type="QuanLyDienThoaiModel.Detail_Bill" Role="Detail_Bill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Detail_Bill">
+        <PropertyRef Name="IdProduct" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_product_producttype">
+    <End Type="QuanLyDienThoaiModel.ProductType" Role="ProductType" Multiplicity="1" />
+    <End Type="QuanLyDienThoaiModel.Product" Role="Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductType">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="IdProductType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Users__IdRole__4BAC3F29">
+    <End Type="QuanLyDienThoaiModel.UserRole" Role="UserRole" Multiplicity="1" />
+    <End Type="QuanLyDienThoaiModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRole">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="IdRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

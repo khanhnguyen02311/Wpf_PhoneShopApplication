@@ -1,0 +1,419 @@
+﻿<Page x:Class="WpfApp2.View.DetailProductPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2.View"
+        mc:Ignorable="d"
+        Name="pagedetail"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" 
+        xmlns:local1="clr-namespace:WpfApp2.ViewModel"
+        Title="DetailsProduct" 
+        d:DesignHeight="500" d:DesignWidth="910">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadedCommand}" 
+                                           CommandParameter="{Binding ElementName=pagedetail}"/>
+        </i:EventTrigger>
+
+    </i:Interaction.Triggers>
+    <Page.Resources>
+        <local1:PriceConverter x:Key="PriceConverter"/>
+    </Page.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100*"></ColumnDefinition>
+            <ColumnDefinition Width="100*"></ColumnDefinition>
+            <ColumnDefinition Width="200*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="1"
+                 Text="{Binding TextNameProduct}"
+                 FontFamily="Roboto"
+                 FontWeight="Bold"
+                 FontSize="15"
+                 Height="40"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Center"
+                 Padding="0"
+                 Margin="20 10 10 10"
+                 materialDesign:HintAssist.Hint="Tên sản phẩm"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 materialDesign:HintAssist.Foreground="White"
+                 BorderBrush="White"
+                 Foreground="#DDDDDD"/>
+        <TextBox Grid.Row="1"
+                 Grid.Column="1"
+                 Text="{Binding TextIdProduct}"
+                 FontFamily="Roboto"
+                 FontWeight="Bold"
+                 FontSize="15"
+                 Height="40"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Center"
+                 Margin="10 10 20 10"
+                 Padding="0"
+                 materialDesign:HintAssist.Hint="Mã sản phẩm"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 IsReadOnly="True"
+                 materialDesign:HintAssist.Foreground="White"
+                 BorderBrush="White"
+                 Foreground="#DDDDDD"/>
+        <TextBox Grid.Row="2"
+                 IsReadOnly="True"
+                 Text="{Binding TextTypeProduct}"
+                 materialDesign:HintAssist.Hint="Mã loại sản phẩm"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                 FontFamily="Roboto"
+                 FontWeight="Bold"
+                 FontSize="15"
+                 Height="40"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Center"
+                 Padding="0"
+                 Margin="20 10 10 10"
+                 materialDesign:HintAssist.Foreground="White"
+                 BorderBrush="White"
+                 Foreground="#DDDDDD"/>
+        <TextBox Grid.Row="2"
+                 Grid.Column="1"
+                 Text="{Binding TextAmountProduct}"
+                 materialDesign:HintAssist.Hint="Tồn kho / Ban đầu"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                 FontFamily="Roboto"
+                 FontWeight="Bold"
+                 FontSize="15"
+                 Height="40"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Center"
+                 Margin="10 10 20 10"
+                 Padding="0"
+                 materialDesign:HintAssist.Foreground="White"
+                 BorderBrush="White"
+                 Foreground="#DDDDDD"/>
+        <TextBox Grid.Row="3"
+                 Grid.Column="0"
+                 Text="{Binding TextCapital}"
+                 FontFamily="Roboto"
+                 FontWeight="Bold"
+                 FontSize="15"
+                 Height="40"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Center"
+                 Margin="20 10 10 10"
+                 Padding="0"
+                 materialDesign:HintAssist.Hint="Giá vốn (₫)"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 materialDesign:HintAssist.Foreground="White"
+                 BorderBrush="White"
+                 Foreground="#DDDDDD"/>
+        <TextBox Grid.Row="3"
+                 Grid.Column="1"
+                 Text="{Binding TextPrice}"
+                 materialDesign:HintAssist.Hint="Giá sản phẩm"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                 FontFamily="Roboto"
+                 FontWeight="Bold"
+                 FontSize="15"
+                 Height="40"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Center"
+                 Margin="10 10 20 10"
+                 Padding="0"
+                 materialDesign:HintAssist.Foreground="White"
+                 BorderBrush="White"
+                 Foreground="#DDDDDD"/>
+        <TextBox Grid.Row="4"
+                 Grid.Column="0"
+                 Text="{Binding TextDateInput}"
+                 materialDesign:HintAssist.Hint="Ngày nhập hàng"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                 FontFamily="Roboto"
+                 FontWeight="Bold"
+                 FontSize="15"
+                 Height="40"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Center"
+                 Margin="20 10 10 10"
+                 Padding="0"
+                 materialDesign:HintAssist.Foreground="White"
+                 BorderBrush="White"
+                 Foreground="#DDDDDD"/>
+        <TextBox Grid.Row="5"
+                 Grid.Column="0"
+                 Text="{Binding TextDecription}"
+                 materialDesign:HintAssist.Hint="Mô tả"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                 FontFamily="Roboto"
+                 FontWeight="Bold"
+                 FontSize="15"
+                 Height="40"
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Center"
+                 Margin="20 10 10 10"
+                 Padding="0"
+                 materialDesign:HintAssist.Foreground="White"
+                 BorderBrush="White"
+                 Foreground="#DDDDDD"/>
+
+        <Border Grid.Column="1" Grid.Row="4" Grid.RowSpan="3">
+            <Border.Effect>
+                <DropShadowEffect
+                                    Color="Blue"
+                                    Direction="270"
+                                    ShadowDepth="1"
+                                    BlurRadius="10"/>
+            </Border.Effect>
+            <Image Stretch="UniformToFill"
+                   Width="150" Height="150"                   
+                   Name="imgProduct"
+                   Source="{Binding ImagePath}">
+                <Image.Clip>
+                    <EllipseGeometry
+                        RadiusX="75"
+                        RadiusY="75"
+                        Center="75,75"/>
+                </Image.Clip>
+            </Image>
+        </Border>
+
+        <materialDesign:Card Grid.Row="1"
+                             Grid.Column="2"
+                             Grid.RowSpan="5"
+                             Margin="5 5 20 5" 
+                             VerticalAlignment="Stretch"
+                             HorizontalAlignment="Stretch"
+                             Opacity="0.3"
+                             />
+        <ListView FontFamily="Roboto"
+                      FontSize="12"
+                      Name="akanaka"                      
+                      Grid.Row="1"
+                      Grid.Column="2"
+                      Grid.RowSpan="5"
+                      ItemsSource="{Binding ListBill}" 
+                      SelectedItem="{Binding SelectedItem}"
+                      Margin="10 10 25 10"
+                      HorizontalAlignment="Stretch">
+
+            <ListView.Resources>
+                <Style x:Key="ShadowEffect" TargetType="{x:Type Border}">
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <DropShadowEffect BlurRadius="20"
+                                              Color="White"
+                                              Opacity="0.7"
+                                              ShadowDepth="0"/>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+                <Style x:Key="TextStyle" TargetType="{x:Type TextBlock}">
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="Height" Value="20"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Style>
+            </ListView.Resources>
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="165">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border Style="{StaticResource ShadowEffect}">
+                                    <TextBlock Text="Tên KH"
+                                            Style="{StaticResource TextStyle}"
+                                            FontSize="15"
+                                            FontWeight="Bold">
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding NameCus}"
+                                               Style="{StaticResource TextStyle}"
+                                               FontSize="14"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="190">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border Style="{StaticResource ShadowEffect}">
+                                    <TextBlock Text="Ngày mua" 
+                                            Style="{StaticResource TextStyle}"
+                                            FontSize="15"
+                                            FontWeight="Bold">
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Date, StringFormat='dd/MM/yyyy hh:mm:ss tt'}"
+                                               Style="{StaticResource TextStyle}"
+                                               FontSize="14">
+                                </TextBlock>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="180">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border Style="{StaticResource ShadowEffect}">
+                                    <TextBlock Text="Thu" 
+                                            Style="{StaticResource TextStyle}"
+                                            FontSize="15"
+                                            FontWeight="Bold">
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Money,Converter={StaticResource PriceConverter }}"
+                                       Style="{StaticResource TextStyle}"
+                                       FontSize="14">
+                                </TextBlock>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <StackPanel Grid.Column="2"
+                    Grid.Row="6"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Margin="0 0 20 20">
+
+            <Button
+                Width="70" Content="Sửa"
+                FontWeight="Bold"
+                FontSize="15"
+                Padding="0"
+                Command="{Binding EditCommand}"
+                CommandParameter="{Binding ElementName=pagedetail}"
+                Height="35"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Background="#1D1D2C"
+                BorderBrush="White"
+                Foreground="#DDDDDD"
+                FontFamily="Roboto"
+                Margin="0 0 10 0"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                />
+
+            <Button
+                Width="70" Content="Xóa"
+                FontWeight="Bold"
+                Command="{Binding DeleteCommand}"
+                CommandParameter="{Binding ElementName=pagedetail}"
+                FontSize="15"
+                Padding="0"
+                Height="35"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Background="#1D1D2C"
+                BorderBrush="White"
+                Foreground="#DDDDDD"
+                FontFamily="Roboto"
+                Margin="0 0 10 0"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+               />
+
+            <Button
+                Width="130" Content="Thêm đơn hàng"
+                Command="{Binding AddBillCommand}"
+                CommandParameter="{Binding ElementName=pagedetail}"
+                FontWeight="Bold"
+                Padding="0"
+                BorderBrush="White"
+                FontSize="15"
+                Height="35"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                FontFamily="Roboto"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                />
+        </StackPanel>
+
+        <!--Nút backward-->
+        <Button
+            HorizontalAlignment="Left"
+            Background="White"
+            BorderBrush="White"
+            VerticalAlignment="Center"
+            Height="25" Width="25"
+            Margin="5"
+            Command="{x:Static NavigationCommands.BrowseBack}"
+            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+            <materialDesign:PackIcon
+                Kind="KeyboardArrowLeft"
+                Height="20"
+                Width="20" />
+        </Button>
+        <!--Nút forward-->
+        <Button
+            HorizontalAlignment="Left"
+            Background="White"
+            BorderBrush="White"
+            VerticalAlignment="Center"
+            Height="25" Width="25"
+            Margin="35,0,0,0"
+            Command="{x:Static NavigationCommands.BrowseForward}"
+            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+            <materialDesign:PackIcon
+                Kind="KeyboardArrowRight"
+                Height="20"
+                Width="20" />
+        </Button>
+        <Button HorizontalAlignment="Left"
+                Background="White"
+                BorderBrush="White"
+                VerticalAlignment="Center"
+                Height="25" Width="25"
+                Command="{Binding RefreshCommand}"
+                CommandParameter="{Binding ElementName=pagedetail}"
+                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                Margin="65,0,0,0">
+            <materialDesign:PackIcon
+                Kind="Refresh"
+                Height="20"
+                Width="20" />
+        </Button>
+
+        <TextBlock Text="CHI TIẾT SẢN PHẨM"
+                   FontSize="20"
+                   Foreground="White"
+                   FontFamily="Roboto"
+                   HorizontalAlignment="Center"
+                   FontWeight="Bold"
+                   VerticalAlignment="Center"
+                   Grid.ColumnSpan="3">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="2"
+                                  Direction="315"
+                                  Color="Black"
+                                  Opacity="0.8"/>
+            </TextBlock.Effect>
+        </TextBlock>
+    </Grid>
+</Page>

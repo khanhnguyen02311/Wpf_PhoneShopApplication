@@ -1,0 +1,20 @@
+﻿WpfApp2
+
+
+winexe
+C#
+.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\
+WpfApp2
+none
+false
+DEBUG;TRACE
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\App.xaml
+231308793189
+21066506127
+621786922796
+27-619384085
+MainWindow.xaml;MyUserControl\ControlBarUC.xaml;Resources\MainResource.xaml;View\AddBill.xaml;View\AddCustomerPage.xaml;View\AddEventSale.xaml;View\AddProductPage.xaml;View\DashBoard.xaml;View\DataFromExcelWindow.xaml;View\DetailProductPage.xaml;View\Dialog.xaml;View\FinancialPage.xaml;View\ForgotPasswordWindow.xaml;View\HistoryPage.xaml;View\HomePage.xaml;View\ListBillDetail.xaml;View\ListProductPage.xaml;View\LoginWindow.xaml;View\OkDialog.xaml;View\SettingPage.xaml;View\SignUpWindow.xaml;View\TypeProductPage.xaml;Resources\_ControlResources.xaml;
+
+True
+

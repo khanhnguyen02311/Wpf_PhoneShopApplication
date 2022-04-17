@@ -1,0 +1,180 @@
+﻿<Page x:Class="WpfApp2.View.AddCustomerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp2.View"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+        x:Name="wdAddCus"
+      d:DesignHeight="500" d:DesignWidth="910"
+         DataContext="{StaticResource AddCustomerVM}"
+      Title="test">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--Nút backward-->
+        <Button
+            HorizontalAlignment="Left"
+            x:Name="btnbackward"
+            Background="White"
+            BorderBrush="White"
+            VerticalAlignment="Center"
+            Height="25" Width="25"
+            Margin="5"
+            Command="{x:Static NavigationCommands.BrowseBack}"
+            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+            <materialDesign:PackIcon
+                Kind="KeyboardArrowLeft"
+                Height="20"
+                Width="20"
+                Foreground="Black"/>
+        </Button>
+        <!--Nút forward-->
+        <Button
+            HorizontalAlignment="Left"
+            Background="White"
+            BorderBrush="White"
+            VerticalAlignment="Center"
+            Command="{x:Static NavigationCommands.BrowseForward}"
+            Height="25" Width="25"
+            Margin="35 0 0 0"
+            
+            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+            <materialDesign:PackIcon
+                Kind="KeyboardArrowRight"
+                Height="20"
+                Width="20" 
+                />
+        </Button>
+        <!--Nút refresh-->
+        <Button HorizontalAlignment="Left"
+                Background="White"
+                BorderBrush="White"
+                VerticalAlignment="Center"
+                Height="25" Width="25"
+                Command="{Binding ResetCommand}"
+                CommandParameter="{Binding ElementName=wdAddCus}"
+                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                Margin="65,0,0,0">
+            <materialDesign:PackIcon
+                Kind="Refresh"
+                Height="20"
+                Width="20" />
+        </Button>
+
+        <TextBlock Grid.Row="0" 
+                   Text="THÊM KHÁCH HÀNG"
+                   FontFamily="Roboto"
+                   FontSize="20"
+                   FontWeight="Bold"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   Foreground="White">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="2"
+                                  Direction="315"
+                                  Color="Black"
+                                  Opacity="0.8"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBox Grid.Row="1"
+                 Text="{Binding ID}"
+                 FontFamily="Roboto"
+                 FontWeight="SemiBold"
+                 HorizontalContentAlignment="Left"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Center"
+                 materialDesign:HintAssist.Foreground="White"
+                 materialDesign:BottomDashedLineAdorner.Brush="White"
+                 BorderBrush="White"
+                 Foreground="#DDDDDD"
+                 materialDesign:ThemeAssist.Theme="Dark"
+                 Margin="50 0 0 0"
+                 FontSize="15"
+                 Height="50"
+                 Width="400"
+                 materialDesign:HintAssist.Hint="Mã khách hàng mới"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 />
+        <TextBox Grid.Row="2"
+                 Text="{Binding NameCustomer}"
+                 FontFamily="Roboto"
+                 FontWeight="SemiBold"
+                 HorizontalContentAlignment="Left"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Center"
+                 materialDesign:HintAssist.Foreground="White"
+                 materialDesign:BottomDashedLineAdorner.Brush="White"
+                 BorderBrush="White"
+                 Foreground="#DDDDDD"
+                 materialDesign:ThemeAssist.Theme="Dark"
+                 Margin="50 0 0 0"
+                 FontSize="15"
+                 Height="50"
+                 Width="400"
+                 materialDesign:HintAssist.Hint="Tên khách hàng mới"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+        <TextBox Grid.Row="3"
+                 Text="{Binding Phone}"
+                 FontFamily="Roboto"
+                 FontWeight="SemiBold"
+                 HorizontalContentAlignment="Left"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Center"
+                 materialDesign:HintAssist.Foreground="White"
+                 materialDesign:BottomDashedLineAdorner.Brush="White"
+                 BorderBrush="White"
+                 Foreground="#DDDDDD"
+                 materialDesign:ThemeAssist.Theme="Dark"
+                 Margin="50 0 0 0"
+                 FontSize="15"
+                 Height="50"
+                 Width="400"
+                 materialDesign:HintAssist.Hint="Số điện thoại"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+        <TextBox Grid.Row="4"
+                 Text="{Binding Address}"
+                 FontFamily="Roboto"
+                 FontWeight="SemiBold"
+                 HorizontalContentAlignment="Left"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Center"
+                 materialDesign:HintAssist.Foreground="White"
+                 materialDesign:BottomDashedLineAdorner.Brush="White"
+                 BorderBrush="White"
+                 Foreground="#DDDDDD"
+                 materialDesign:ThemeAssist.Theme="Dark"
+                 Margin="50 0 0 0"
+                 FontSize="15"
+                 Height="50"
+                 Width="400"
+                 materialDesign:HintAssist.Hint="Địa chỉ"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+        <Button Grid.Row="5"
+                Command="{Binding SaveNewProductCommand}"
+                CommandParameter="{Binding ElementName=wdAddCus}" 
+                Content="Thêm khách hàng"
+                FontFamily="Roboto"
+                FontWeight="SemiBold"
+                HorizontalContentAlignment="Center"
+                FontSize="15"
+                Padding="0"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Right"
+                Foreground="White"
+                BorderBrush="White"
+                materialDesign:ButtonAssist.CornerRadius="5"
+                Height="40" 
+                Width="180"
+                Margin="0 0 30 0"/>
+
+
+    </Grid>
+</Page>

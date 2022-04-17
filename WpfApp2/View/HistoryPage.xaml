@@ -1,0 +1,150 @@
+﻿<Page x:Class="WpfApp2.View.HistoryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp2.View" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+      xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+      mc:Ignorable="d"
+      x:Name="historypage"
+      d:DesignHeight="500" d:DesignWidth="910"
+      DataContext="{StaticResource HistoryVM}"
+      Title="HistoryPage">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadCommand}" CommandParameter="{Binding ElementName=historypage}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+    <Grid>
+        <materialDesign:Card Grid.Row="1"
+                             Grid.Column="2"
+                             Grid.RowSpan="5"
+                             Margin="5" 
+                             VerticalAlignment="Stretch"
+                             HorizontalAlignment="Stretch"
+                             Opacity="0.3"
+                             />
+        <ListView FontFamily="Roboto"
+                      FontSize="12"
+                      Name="akanaka"
+                      ItemsSource="{Binding ListHistory}" 
+                      SelectedItem="{Binding SelectedItem}"
+                      HorizontalAlignment="Stretch">
+
+            <ListView.Resources>
+                <Style x:Key="ShadowEffect" TargetType="{x:Type Border}">
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <DropShadowEffect BlurRadius="20"
+                                              Color="White"
+                                              Opacity="0.7"
+                                              ShadowDepth="0"/>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+                <Style x:Key="TextStyle" TargetType="{x:Type TextBlock}">
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="Height" Value="20"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="TextAlignment" Value="Center"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Style>
+            </ListView.Resources>
+
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="100">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border Style="{StaticResource ShadowEffect}">
+                                    <TextBlock Text="STT" 
+                                                Style="{StaticResource TextStyle}"
+                                                FontSize="15"
+                                                FontWeight="Bold">
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding ID}"
+                                           Style="{StaticResource TextStyle}"
+                                           FontSize="14"
+                                           TextAlignment="Center">
+                                </TextBlock>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="230">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border Style="{StaticResource ShadowEffect}">
+                                    <TextBlock Text="Tên người dùng"
+                                            Style="{StaticResource TextStyle}"
+                                            FontSize="15"
+                                            FontWeight="Bold" Width="120">
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding DisplayName}"
+                                               Style="{StaticResource TextStyle}"
+                                               FontSize="14"
+                                           TextAlignment="Left"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Width="200">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border Style="{StaticResource ShadowEffect}">
+                                    <TextBlock Text="Tên đăng nhập"
+                                            Style="{StaticResource TextStyle}"
+                                            FontSize="15"
+                                            FontWeight="Bold" Width="120">
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding UserName}"
+                                               Style="{StaticResource TextStyle}"
+                                               FontSize="14"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="260">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border Style="{StaticResource ShadowEffect}">
+                                    <TextBlock Text="Thời gian đăng nhập" 
+                                            Style="{StaticResource TextStyle}"
+                                            FontSize="15"
+                                               Width="160"
+                                            FontWeight="Bold">
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding TimeToLogIn, StringFormat='dd/MM/yyyy hh:mm:ss tt'}"
+                                               Style="{StaticResource TextStyle}"
+                                               FontSize="14">
+                                </TextBlock>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+            </ListView>
+
+    </Grid>
+</Page>

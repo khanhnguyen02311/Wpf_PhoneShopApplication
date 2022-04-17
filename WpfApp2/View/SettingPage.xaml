@@ -1,0 +1,290 @@
+﻿<Page x:Class="WpfApp2.View.SettingPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      
+      xmlns:local="clr-namespace:WpfApp2.View" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+      xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+      mc:Ignorable="d" 
+      x:Name="pagesetting"
+      DataContext="{StaticResource DashBoardVM}"
+      d:DesignHeight="500" d:DesignWidth="910"
+      Title="SettingPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" 
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
+                   Text="TÀI KHOẢN"
+                   FontFamily="Roboto"
+                   FontSize="20"
+                   FontWeight="Bold"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center" 
+                   Foreground="White">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="2"
+                                  Direction="315"
+                                  Color="Black"
+                                  Opacity="0.8"/>
+            </TextBlock.Effect>
+        </TextBlock>
+
+        <TextBox Grid.Row="1" 
+                 Grid.Column="0"
+                 Text="{Binding User.Id}"
+                 FontFamily="Roboto"
+                 FontWeight="SemiBold"
+                 HorizontalContentAlignment="Center"
+                 FontSize="15"
+                 Height="50"
+                 IsReadOnly="True"
+                 Margin="50 0"
+                 materialDesign:HintAssist.Foreground="White"
+                BorderBrush="White"
+                Foreground="#DDDDDD"
+                 materialDesign:HintAssist.Hint="Mã User"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                 />
+
+        <TextBox Grid.Row="1" 
+                 Grid.Column="1"
+                 Text="{Binding UserRole.DisplayName}"
+                 FontFamily="Roboto"
+                 FontWeight="SemiBold"
+                 HorizontalContentAlignment="Center"
+                 FontSize="15"
+                 IsReadOnly="True"
+                 Height="50"
+                 Margin="50 0"
+                 materialDesign:HintAssist.Hint="Quyền hạn"
+                 materialDesign:HintAssist.Foreground="White"
+                BorderBrush="White"
+                Foreground="#DDDDDD"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 />
+
+        <TextBox Grid.Row="2"
+                 Grid.Column="0"
+                 x:Name="txtName"
+                 Text="{Binding User.DisplayName, Mode=OneWay}"
+                 FontFamily="Roboto"
+                 FontWeight="SemiBold"
+                 HorizontalContentAlignment="Center"
+                 FontSize="15"
+                 IsReadOnly="True"
+                 materialDesign:HintAssist.Foreground="White"
+                BorderBrush="White"
+                Foreground="#DDDDDD"
+                 Height="50"
+                 Margin="50 0"
+                 materialDesign:HintAssist.Hint="Tên nhân viên"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                 />
+
+        <TextBox Grid.Row="3"
+                 Grid.Column="0"
+                 IsReadOnly="True"
+                 Text="{Binding User.UserName}"
+                 FontFamily="Roboto"
+                 FontWeight="SemiBold"
+                 HorizontalContentAlignment="Center"
+                 FontSize="15"
+                 Height="50"
+                 Margin="50 0"
+                 materialDesign:HintAssist.Foreground="White"
+                    BorderBrush="White"
+                    Foreground="#DDDDDD"
+                 materialDesign:HintAssist.Hint="Tên đăng nhập"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                 />
+        <TextBox Grid.Row="3"
+                 Grid.Column="1"
+                 IsReadOnly="True"
+                 Text="{Binding User.Email}"
+                 FontFamily="Roboto"
+                 FontWeight="SemiBold"
+                 HorizontalContentAlignment="Center"
+                 FontSize="15"
+                 Height="50"
+                 Margin="50 0"
+                 materialDesign:HintAssist.Foreground="White"
+                    BorderBrush="White"
+                    Foreground="#DDDDDD"
+                 materialDesign:HintAssist.Hint="Email"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox}" 
+                 />
+
+        <Button Grid.Row="2"
+                Grid.Column="1"
+                Command="{Binding SaveNameCommand}"
+                CommandParameter="{Binding ElementName=pagesetting}" 
+                Content="Lưu"
+                x:Name="btnSaveName"
+                FontFamily="Roboto"
+                Visibility="Hidden"
+                FontWeight="SemiBold"
+                HorizontalContentAlignment="Center"
+                FontSize="15"
+                Style="{StaticResource MaterialDesignFlatSecondaryButton}"
+                Padding="0"
+                VerticalAlignment="Center"
+                Height="40" 
+                Width="200"
+                />
+
+        <Button Grid.Row="2"
+                Grid.Column="0"
+                x:Name="btnChangeName"
+                Command="{Binding ChangeNameCommand}"
+                CommandParameter="{Binding ElementName=pagesetting}" 
+                FontFamily="Roboto"
+                FontWeight="SemiBold"
+                HorizontalContentAlignment="Center"
+                FontSize="15"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                Padding="0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"
+                Height="30"
+                Width="50">
+            <materialDesign:PackIcon x:Name="iconChangeName" 
+                                     Kind="PencilOff" 
+                                     Height="20" 
+                                     Width="auto"/>
+        </Button>
+
+        <TextBox Grid.Row="4"
+                 Grid.Column="0"
+                 x:Name="pwd"
+                 IsReadOnly="True"
+                 FontFamily="Roboto"
+                 FontWeight="SemiBold"
+                 HorizontalContentAlignment="Center"
+                 FontSize="15"
+                 Height="50"
+                 Margin="50 0"
+                 materialDesign:HintAssist.Foreground="White"
+                    BorderBrush="White"
+                    Foreground="#DDDDDD"
+                 Text="{Binding Password}"
+                 materialDesign:HintAssist.Hint="Mật khẩu"
+                 Style="{StaticResource MaterialDesignFloatingHintTextBox }" 
+                 />
+
+        <Button Grid.Row="4"
+                Grid.Column="0"
+                Height="30" 
+                Width="50" 
+                Command="{Binding ShowPasswordCommand}"
+                CommandParameter="{Binding ElementName=pagesetting}"
+                Style="{StaticResource MaterialDesignFlatLightButton}"
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Center">
+            <materialDesign:PackIcon 
+                x:Name="icon" 
+                Kind="EyeOff"
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Center"
+                Height="20"
+                Width="auto"
+                Foreground="#00a89b"/>
+        </Button>
+
+        <Button Grid.Row="4"
+                Grid.Column="1"
+                x:Name="btnchangepass"
+                Command="{Binding ChangePasswordCommand}"
+                CommandParameter="{Binding ElementName=pagesetting}" 
+                Content="Đổi mật khẩu"
+                FontFamily="arial"
+                FontWeight="SemiBold"
+                HorizontalContentAlignment="Center"
+                FontSize="15"
+                Style="{StaticResource MaterialDesignFlatButton}"
+                Padding="0"
+                VerticalAlignment="Center"
+                Height="30" 
+                Width="200"
+                />
+
+        <PasswordBox Grid.Row="5"
+                     Grid.Column="0"
+                     x:Name="pwdnew"
+                     FontFamily="Roboto"
+                     FontWeight="SemiBold"
+                     Visibility="Hidden"
+                     HorizontalContentAlignment="Center"
+                     FontSize="15"
+                     materialDesign:HintAssist.Foreground="White"
+                     BorderBrush="White"
+                     Foreground="#DDDDDD"
+                     Height="50"
+                     Width="200"
+                     materialDesign:HintAssist.Hint="Mật khẩu mới"
+                     Style="{StaticResource MaterialDesignFloatingHintPasswordBox}">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="PasswordChanged">
+                    <i:InvokeCommandAction Command="{Binding PasswordChangedCommand}" 
+                        CommandParameter="{Binding ElementName=pwdnew}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </PasswordBox>
+
+        <PasswordBox Grid.Row="5"
+                     Grid.Column="1"
+                     x:Name="pwdagain"
+                     FontFamily="Roboto"
+                     FontWeight="SemiBold"
+                     HorizontalContentAlignment="Center"
+                     FontSize="15"
+                     Visibility="Hidden"
+                     Height="50"
+                     materialDesign:HintAssist.Foreground="White"
+                     BorderBrush="White"
+                     Foreground="#DDDDDD"
+                     Width="200"
+                     materialDesign:HintAssist.Hint="Nhập lại mật khẩu"
+                     Style="{StaticResource MaterialDesignFloatingHintPasswordBox}">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="PasswordChanged">
+                    <i:InvokeCommandAction Command="{Binding PasswordConfirmChangedCommand}" 
+                                                   CommandParameter="{Binding ElementName=pwdagain}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </PasswordBox>
+
+        <Button Grid.Row="5"
+                Grid.Column="3"
+                x:Name="btnsave"
+                Command="{Binding SaveCommand}"
+                CommandParameter="{Binding ElementName=pagesetting}" 
+                Content="Lưu"
+                FontFamily="Roboto"
+                Visibility="Hidden"
+                FontWeight="SemiBold"
+                HorizontalContentAlignment="Center"
+                FontSize="15"
+                Style="{StaticResource MaterialDesignFlatSecondaryButton}"
+                Padding="0"
+                VerticalAlignment="Center"
+                Height="50" 
+                Width="200"
+                />
+    </Grid>
+</Page>

@@ -1,0 +1,375 @@
+﻿<Window x:Class="WpfApp2.View.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2.View"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+        xmlns:uc="clr-namespace:WpfApp2.MyUserControl"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        Title="QUẢN LÝ ĐIỆN THOẠI" 
+        Height="585" 
+        Width="1060"
+        DataContext="{StaticResource LoginVM}"
+        WindowStartupLocation="CenterScreen"
+        x:Name="wdLogin"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        Background="White"
+        AllowsTransparency="True">
+
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadLoginWindowCommand}" CommandParameter="{Binding ElementName=wdLogin}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+    <Grid>
+
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="#2B3148" Offset="0" />
+                <GradientStop Color="#233552" Offset="1" />
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0"
+              Grid.Column="0"
+              Grid.ColumnSpan="2">
+            <uc:ControlBarUC Tag="{Binding Title,ElementName=wdlogin}"></uc:ControlBarUC>
+        </Grid>
+
+        <Grid Grid.Column="0"
+              Grid.Row="1">
+
+            <Image x:Name="mainLogo"
+                   Source="/Resources/Images/main_logo.png"
+                   Height="400"
+                   Stretch="Uniform"
+                   VerticalAlignment="Bottom"
+                   HorizontalAlignment="Left"
+                   Opacity="0"
+                   />
+
+            <TextBlock x:Name="title1"
+                       Text="Phần mềm  &#xD;&#xA;Quản lý cửa hàng điện thoại"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Top"
+                       Margin="60 60 0 0"
+                       FontSize="25"
+                       FontWeight="Bold"
+                       FontFamily="Roboto"
+                       Foreground="#2979ff"
+                       Opacity="0"
+                       >
+                <TextBlock.Effect>
+                    <DropShadowEffect ShadowDepth="3"
+                                  Direction="315"
+                                  Color="Black"
+                                  Opacity="0.8"/>
+                </TextBlock.Effect>
+            </TextBlock>
+
+            <TextBlock x:Name="title2"
+                       Text="Đồ án cuối kì Lập trình trực quan"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Top"
+                       Margin="60 150 0 0"
+                       FontSize="15"
+                       FontWeight="Regular"
+                       FontFamily="Roboto"
+                       FontStyle="Italic"
+                       Foreground="#DDDDDD"
+                       Opacity="0"/>
+
+            <TextBlock x:Name="title3"
+                       Text="Lớp: IT008.M13.PMCL"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Top"
+                       Margin="60 170 0 0"
+                       FontSize="15"
+                       FontWeight="Regular"
+                       FontFamily="Roboto"
+                       FontStyle="Italic"
+                       Foreground="#DDDDDD"
+                       Opacity="0"/>
+        </Grid>
+
+        <Grid Width="250"
+              Height="370"
+              VerticalAlignment="Center"
+              HorizontalAlignment="Center" 
+              Grid.Column="1" 
+              Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.3*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+
+            <Grid.Effect>
+                <DropShadowEffect BlurRadius="20" 
+                                  Opacity="0.4"/>
+            </Grid.Effect>
+
+            <Rectangle x:Name="loginRect"
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="2"
+                       Grid.RowSpan="8"                      
+                       HorizontalAlignment="Stretch"
+                       VerticalAlignment="Stretch"
+                       RadiusY="10" 
+                       RadiusX="10" 
+                       Panel.ZIndex="-5"
+                       Stroke="White"
+                       Opacity="0">
+
+                <Rectangle.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#02225e" Offset="0" />
+                        <GradientStop Color="#010d63" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+
+            </Rectangle>
+
+            <TextBlock x:Name="loginTitle"
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="2"
+                       Text="Đăng nhập"
+                       TextWrapping="Wrap"
+                       FontSize="20" 
+                       Foreground="White"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Opacity="0"/>
+
+            <Grid Grid.Row="1"
+                  Grid.Column="0"
+                  Grid.ColumnSpan="2">
+                <materialDesign:PackIcon Kind="Account" 
+                                         Height="30"
+                                         Width="30"
+                                         Margin="20 10"
+                                         VerticalAlignment="Center"
+                                         HorizontalAlignment="Left"
+                                         Foreground="#DDDDDD"
+                                         x:Name="userLogo"
+                                         Opacity="0"/>
+                <TextBox x:Name="txtUsername"
+                         Text="{Binding UserName}"
+                         Width="165"
+                         FontStretch="Medium"
+                         materialDesign:HintAssist.Hint="Tên đăng nhập"
+                         Margin="0 0 25 12"
+                         VerticalAlignment="Center"
+                         HorizontalAlignment="Right"
+                         TextWrapping="Wrap"
+                         Padding="4"
+                         Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                         materialDesign:HintAssist.Foreground="White"
+                         FontSize="12"
+                         TabIndex="1"
+                         BorderBrush="White"
+                         Foreground="#DDDDDD"
+                         FontWeight="Medium"
+                         FontFamily="Roboto"
+                         Opacity="0"/>
+            </Grid>
+
+            <Grid Grid.Row="2"
+                  Grid.Column="0"
+                  Grid.ColumnSpan="2"
+                  >
+                <materialDesign:PackIcon Kind="Lock" 
+                                           Width="30"
+                                           Height="30"
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Left"
+                                           Margin="20 10"
+                                           Foreground="#DDDDDD"
+                                         x:Name="passLogo"
+                                         Opacity="0"/>
+                <PasswordBox x:Name="txtPassword"                             
+                             materialDesign:HintAssist.Hint="Mật khẩu"
+                             Width="165"
+                             Margin="0 0 25 8"
+                             VerticalAlignment="Center"
+                             HorizontalAlignment="Right"
+                             FontSize="12"
+                             Padding="4"
+                             Style="{StaticResource MaterialDesignFloatingHintPasswordBox}"
+                             materialDesign:HintAssist.Foreground="White"
+                             TabIndex="2"
+                             PasswordChar="*"
+                             FontWeight="Medium"
+                             FontFamily="Roboto"
+                             BorderBrush="White"
+                             Foreground="#DDDDDD"
+                             Opacity="0">
+
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="PasswordChanged">
+                            <i:InvokeCommandAction Command="{Binding PasswordChangedCommand}" 
+                                                   CommandParameter="{Binding ElementName=txtPassword}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+
+                </PasswordBox>
+
+            </Grid>
+            <Button Grid.Row="6"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    x:Name="btnForgotPass"
+                    Command="{Binding ForgotPassWordCommand}"
+                    CommandParameter="{Binding ElementName=wdLogin}"
+                    Style="{StaticResource MaterialDesignFlatButton}"
+                    Content="Quên mật khẩu?"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="140"
+                    Height="30"
+                    FontFamily="Roboto"
+                    Opacity="0" 
+                    />
+            <Button Grid.Row="4"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    x:Name="btnLogin"
+                    IsDefault="True"
+                    Command="{Binding LoginCommand}"
+                    CommandParameter="{Binding ElementName=wdLogin}"
+                    Style="{StaticResource MaterialDesignRaisedButton}"
+                    materialDesign:ButtonAssist.CornerRadius="5"
+                    BorderBrush="White"
+                    Content="Đăng nhập"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="140"
+                    Height="30"
+                    FontFamily="Roboto"
+                    Opacity="0"/>
+
+            <Button Grid.Row="5"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    x:Name="btnSignup"
+                    Content="Đăng ký"
+                    Command="{Binding OpenSignupCommand}"
+                    CommandParameter="{Binding ElementName=wdLogin}"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Width="140" 
+                    Height="30" 
+                    Background="#1D1D2C"
+                    BorderBrush="White"
+                    Foreground="#DDDDDD"
+                    Style="{StaticResource MaterialDesignOutlinedButton}"
+                    materialDesign:ButtonAssist.CornerRadius="5"
+                    FontFamily="Roboto"
+                    Opacity="0"/>
+        </Grid>
+
+        <!--Animations-->
+        <Grid.Triggers>
+            <EventTrigger RoutedEvent="Window.Loaded">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation
+                                    Storyboard.TargetName="title1" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:2"/>
+                        <DoubleAnimation
+                                    Storyboard.TargetName="title2" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:1"
+                                    BeginTime="0:0:1"/>
+                        <DoubleAnimation
+                                    Storyboard.TargetName="title3" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:1"
+                                    BeginTime="0:0:1"/>
+                        <DoubleAnimation
+                                    Storyboard.TargetName="mainLogo" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:1.5"/>
+                        <DoubleAnimation
+                                    Storyboard.TargetName="loginRect" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:2"
+                                    BeginTime="0:0:2"/>
+                        <DoubleAnimation
+                                    Storyboard.TargetName="loginTitle" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:1"
+                                    BeginTime="0:0:2.5"/>
+                        <DoubleAnimation
+                                    Storyboard.TargetName="txtUsername" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:1"
+                                    BeginTime="0:0:3"/>
+                        <DoubleAnimation
+                                    Storyboard.TargetName="userLogo" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:1"
+                                    BeginTime="0:0:3"/>
+                        <DoubleAnimation
+                                    Storyboard.TargetName="txtPassword" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:1"
+                                    BeginTime="0:0:3.5"/>
+                        <DoubleAnimation
+                                    Storyboard.TargetName="passLogo" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:1"
+                                    BeginTime="0:0:3.5"/>
+                        <DoubleAnimation
+                                    Storyboard.TargetName="btnLogin" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:1"
+                                    BeginTime="0:0:4.5"/>
+                        <DoubleAnimation
+                                    Storyboard.TargetName="btnSignup" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:1"
+                                    BeginTime="0:0:5"/>
+                        <DoubleAnimation
+                                    Storyboard.TargetName="btnForgotPass" 
+                                    Storyboard.TargetProperty="Opacity"
+                                    From="0.0" To="1.0" Duration="0:0:1"
+                                    BeginTime="0:0:5.5"/>
+
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+        </Grid.Triggers>
+    </Grid>
+</Window>

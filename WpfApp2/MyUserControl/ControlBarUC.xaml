@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="WpfApp2.MyUserControl.ControlBarUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp2.MyUserControl"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"            
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             mc:Ignorable="d" 
+             x:Name="UCControlBar">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="MouseLeftButtonDown">
+            <i:InvokeCommandAction Command="{Binding MouseMoveWindowCommand}"
+                                   CommandParameter="{Binding ElementName=UCControlBar}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <materialDesign:ColorZone Mode="Custom"
+                                  materialDesign:ColorZoneAssist.Background="#051533"
+                                  Padding="2" Grid.ColumnSpan="2">
+            <DockPanel>
+                <StackPanel DockPanel.Dock="Right"
+                            Background="Transparent"
+                            Orientation="Horizontal">
+                    <Button ToolTip="Minimize"
+                            Command="{Binding MinimizeWindowCommand}"
+                            CommandParameter="{Binding ElementName=UCControlBar}"
+                            ToolBar.OverflowMode="AsNeeded"
+                            Background="#f8931f"
+                            BorderBrush="Black"
+                            Margin="2 0 0 0"
+                            Height="25">
+                        <materialDesign:PackIcon Kind="WindowMinimize"
+                                                 HorizontalAlignment="Center"/>
+                    </Button>
+
+                    <Button ToolTip="Maximize"
+                            Command="{Binding MaximizeWindowCommand}"
+                            CommandParameter="{Binding ElementName=UCControlBar}"
+                            ToolBar.OverflowMode="AsNeeded"
+                            Background="#00a89b"
+                            BorderBrush="Black"
+                            Margin="2 0 0 0"
+                            Height="25">
+                        <materialDesign:PackIcon Kind="WindowMaximize" 
+                                                 HorizontalAlignment="Center"/>
+                    </Button>
+
+                    <Button ToolTip="Close"
+                            Command="{Binding CloseWindowCommand}"
+                            CommandParameter="{Binding ElementName=UCControlBar}"
+                            ToolBar.OverflowMode="AsNeeded"
+                            Background="#ec1c24"
+                            BorderBrush="Black"
+                            Margin="2 0 0 0"
+                            Height="25">
+                        <materialDesign:PackIcon Kind="WindowClose"
+                                                 HorizontalAlignment="Center"/>
+                    </Button>
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock VerticalAlignment="Center"
+                               HorizontalAlignment="Left"
+                               Margin="16 0 16 0"
+                               Text="{Binding Tag, ElementName=UCControlBar}">
+                    </TextBlock>
+                </StackPanel>
+            </DockPanel>
+        </materialDesign:ColorZone>
+    </Grid>
+
+</UserControl>

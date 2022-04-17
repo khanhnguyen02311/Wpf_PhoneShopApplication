@@ -1,0 +1,1080 @@
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\App.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\Dashboard.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\Dashboard.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+D:\Long\đồ án\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+D:\Long\đồ án\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\App.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\botho\Downloads\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.dll
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.xml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\App.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.g.cs
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.baml
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\Xceed.Document.NET.dll
+C:\Users\LENOVO\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\Xceed.Words.NET.dll
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.dll
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\Xceed.Document.NET.dll
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\Xceed.Words.NET.dll
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.xml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\App.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\botho\Downloads\WpfApp2(24-11)1.zip\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\Xceed.Document.NET.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\Xceed.Words.NET.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\App.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\WpfApp2(24-11)1\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.dll
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\Xceed.Document.NET.dll
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\Xceed.Words.NET.dll
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.xml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\App.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.baml
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\LENOVO\Downloads\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\Xceed.Document.NET.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\Xceed.Words.NET.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\App.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\LTTQ(7-12)\doan\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.dll
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\Xceed.Document.NET.dll
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\Xceed.Words.NET.dll
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.xml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\App.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.baml
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\LENOVO\Downloads\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\Xceed.Document.NET.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\Xceed.Words.NET.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\App.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Báo cáo  đồ án cuối kì (chính thức)\Báo cáo cuối kì (chính thức)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.dll
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\Xceed.Document.NET.dll
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\Xceed.Words.NET.dll
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.xml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\HistoryPage.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\App.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\HistoryPage.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\ForgotPasswordWindow.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\ForgotPasswordWindow.baml
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\OkDialog.g.cs
+C:\Users\LENOVO\Downloads\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\OkDialog.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\Xceed.Document.NET.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\Xceed.Words.NET.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\ForgotPasswordWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\HistoryPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\OkDialog.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\App.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\ForgotPasswordWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\HistoryPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\OkDialog.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\Đồ Án (17-12)\DACK(16-12)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.dll
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Xceed.Document.NET.dll
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Xceed.Words.NET.dll
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.xml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ForgotPasswordWindow.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\HistoryPage.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\OkDialog.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\App.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ForgotPasswordWindow.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\HistoryPage.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\OkDialog.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.baml
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+C:\Users\LENOVO\Documents\lttq\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Xceed.Document.NET.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Xceed.Words.NET.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ForgotPasswordWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\HistoryPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\OkDialog.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\App.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ForgotPasswordWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\HistoryPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\OkDialog.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\_ControlResources.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo chính)\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe.config
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.exe
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\WpfApp2.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\System.Windows.Interactivity.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Xceed.Document.NET.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Xceed.Words.NET.dll
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\Aspose.Cells.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\LiveCharts.Wpf.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignColors.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.AssemblyReference.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\MainWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ForgotPasswordWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\HistoryPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\OkDialog.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\App.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_Content.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2_MarkupCompile.lref
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\App.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\MainWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\MyUserControl\ControlBarUC.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\Resources\MainResource.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddBill.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddCustomerPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddEventSale.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\AddProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DashBoard.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DataFromExcelWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\DetailProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\Dialog.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\FinancialPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ForgotPasswordWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\HistoryPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\HomePage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ListBillDetail.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\ListProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\LoginWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\OkDialog.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\SettingPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\SignUpWindow.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\View\TypeProductPage.baml
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.g.resources
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.Properties.Resources.resources
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.GenerateResource.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CoreCompileInputs.cache
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.csproj.CopyComplete
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.exe
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\WpfApp2.pdb
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\Resources\_ControlResources.g.cs
+D:\Learn Programming\Visual Projects\LTTQ-DoAnCK\DACK (báo cáo)\WpfApp2\WpfApp2\obj\Debug\Resources\_ControlResources.baml

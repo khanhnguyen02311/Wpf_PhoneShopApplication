@@ -1,0 +1,593 @@
+﻿<Page x:Class="WpfApp2.View.ListBillDetail"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+      xmlns:local="clr-namespace:WpfApp2.View"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:local1="clr-namespace:WpfApp2.ViewModel"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="910"
+      Title="ListBillDetail"
+      x:Name="wdListBillDetail"
+      DataContext="{StaticResource ListBillDetailVM}"
+      >
+
+    <Page.Resources>
+        <local1:PriceConverter x:Key="PriceConverter"/>
+    </Page.Resources>
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadWindowCommand}"/>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="55*"/>
+            <RowDefinition Height="45*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="37*"/>
+            <ColumnDefinition Width="37*"/>
+            <ColumnDefinition Width="26*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0"
+                   Foreground="White"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="3"
+                   Text="DANH SÁCH HÓA ĐƠN"
+                   FontSize="20"
+                   FontFamily="Roboto"
+                   HorizontalAlignment="Center"
+                   FontWeight="Bold"
+                   VerticalAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="2"
+                                  Direction="315"
+                                  Color="Black"
+                                  Opacity="0.8"/>
+            </TextBlock.Effect>
+        </TextBlock>
+
+        <!--Nút backward-->
+        <Button
+            HorizontalAlignment="Left"
+            Background="White"
+            BorderBrush="White"
+            VerticalAlignment="Center"
+            Height="25" Width="25"
+            Margin="5"
+            Command="{x:Static NavigationCommands.BrowseBack}"
+            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+            <materialDesign:PackIcon
+                Kind="KeyboardArrowLeft"
+                Height="20"
+                Width="20" />
+        </Button>
+        <!--Nút forward-->
+        <Button
+            HorizontalAlignment="Left"
+            Background="White"
+            BorderBrush="White"
+            VerticalAlignment="Center"
+            Height="25" Width="25"
+            Margin="35,0,0,0"
+            Command="{x:Static NavigationCommands.BrowseForward}"
+            Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+            <materialDesign:PackIcon
+                Kind="KeyboardArrowRight"
+                Height="20"
+                Width="20" />
+        </Button>
+        <Button HorizontalAlignment="Left"
+                Background="White"
+                BorderBrush="White"
+                VerticalAlignment="Center"
+                Height="25" Width="25"
+                Command="{Binding RefreshCommand}"
+                CommandParameter="{Binding ElementName=wdListBillDetail}"
+                Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
+                Margin="65,0,0,0">
+            <materialDesign:PackIcon
+                Kind="Refresh"
+                Height="20"
+                Width="20"/>
+        </Button>
+
+        <Grid Grid.Row="1"
+              Grid.Column="1"
+              Grid.ColumnSpan="2">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center">
+
+                <DatePicker HorizontalAlignment="Center" 
+                            VerticalAlignment="Stretch"
+                            VerticalContentAlignment="Center"
+                            HorizontalContentAlignment="Center"
+                            SelectedDate="{Binding Path=Day}" 
+                            materialDesign:HintAssist.Hint="Ngày xuất đơn" 
+                            Padding="6 0"
+                            Name="dayfilter"
+                            FontFamily="Roboto"
+                            FontWeight="Regular"
+                            FontSize="15"
+                            Width="160"
+                            Height="40"
+                            Background="#1D1D2C"
+                            BorderBrush="White"
+                            Foreground="#DDDDDD"
+                            RenderTransformOrigin="0.036,0.775"
+                            Margin="10 0 0 0">
+
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="SelectedDateChanged">
+                            <i:InvokeCommandAction Command="{Binding DaySort}" 
+                                                   CommandParameter="{Binding ElementName=wdListBillDetail}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+
+                </DatePicker>
+
+                <ComboBox FontSize="15"
+                          FontFamily="Roboto"
+                          FontWeight="Regular"
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Center"
+                          VerticalContentAlignment="Top"
+                          HorizontalContentAlignment="Center"     
+                          Padding="6 0"
+                          Margin="20 0"
+                          Width="200"
+                          Height="40"
+                          Name="selecttype"
+                          BorderBrush="White"
+                          Foreground="#DDDDDD"
+                          Style="{StaticResource MaterialDesignFloatingHintComboBox}">
+
+                    <ComboBoxItem>Đang giao</ComboBoxItem>
+                    <ComboBoxItem IsSelected="True">Tất cả đơn hàng</ComboBoxItem>
+                    <ComboBoxItem>Đã hủy</ComboBoxItem>
+                    <ComboBoxItem>Hoàn thành</ComboBoxItem>
+                    <ComboBoxItem>Gần đây</ComboBoxItem>
+
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="SelectionChanged">
+                            <i:InvokeCommandAction Command="{Binding ListChangeCommand}" 
+                                                   CommandParameter="{Binding ElementName=wdListBillDetail}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </ComboBox>
+
+
+            </StackPanel>
+        </Grid>
+
+        <materialDesign:Card Grid.Row="2"
+                             Grid.Column="0"
+                             Grid.ColumnSpan="3"
+                             Margin="10" 
+                             VerticalAlignment="Stretch"
+                             HorizontalAlignment="Stretch"
+                             Opacity="0.3"/>
+        <ListView FontFamily="Roboto"
+                      FontSize="12"
+                      Name="akanaka"                      
+                      Grid.Row="2"
+                      Grid.Column="0"
+                      Grid.ColumnSpan="3"
+                      ItemsSource="{Binding ListBill}" 
+                      SelectedItem="{Binding SelectedItem}"
+                      Margin="15"
+                      HorizontalAlignment="Stretch">
+
+            <ListView.Resources>
+                <Style x:Key="ShadowEffect" TargetType="{x:Type Border}">
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <DropShadowEffect BlurRadius="20"
+                                              Color="White"
+                                              Opacity="0.7"
+                                              ShadowDepth="0"/>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+                <Style x:Key="TextStyle" TargetType="{x:Type TextBlock}">
+                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                    <Setter Property="Height" Value="20"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="Foreground" Value="White"/>
+                </Style>
+            </ListView.Resources>
+
+            <ListView.View>
+                <GridView>
+
+                    <GridViewColumn Width="155">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border Style="{StaticResource ShadowEffect}">
+                                    <TextBlock Text="Mã đơn hàng" 
+                                            Style="{StaticResource TextStyle}"
+                                            FontSize="15"
+                                            FontWeight="Bold">
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Id}"
+                                           Style="{StaticResource TextStyle}"
+                                           FontSize="14"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="165">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border Style="{StaticResource ShadowEffect}">
+                                    <TextBlock Text="Mã nhân viên" 
+                                            Style="{StaticResource TextStyle}"
+                                            FontSize="15"
+                                            FontWeight="Bold">
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding IdUsers}"
+                                       Style="{StaticResource TextStyle}"
+                                       FontSize="14">
+                                </TextBlock>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="180">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border Style="{StaticResource ShadowEffect}">
+                                    <TextBlock Text="Mã khách hàng" 
+                                            Style="{StaticResource TextStyle}"
+                                            FontSize="15"
+                                            FontWeight="Bold">
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding IdCustomer}"
+                                       Style="{StaticResource TextStyle}"
+                                       FontSize="14">
+                                </TextBlock>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="180">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border Style="{StaticResource ShadowEffect}">
+                                    <TextBlock Text="Ngày tạo" 
+                                               Style="{StaticResource TextStyle}"
+                                               FontSize="15"
+                                               FontWeight="Bold">
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Date_output_bill,StringFormat='dd-MM-yyyy hh:mm:ss'}"
+                                       Style="{StaticResource TextStyle}"
+                                       FontSize="14">
+                                </TextBlock>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Width="165">
+                        <GridViewColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <Border Style="{StaticResource ShadowEffect}">
+                                    <TextBlock Text="Trạng thái" 
+                                        Style="{StaticResource TextStyle}"
+                                        FontSize="15"
+                                        FontWeight="Bold">
+                                    </TextBlock>
+                                </Border>
+                            </DataTemplate>
+                        </GridViewColumn.HeaderTemplate>
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Status}"
+                                       Style="{StaticResource TextStyle}"
+                                       FontSize="14">
+                                </TextBlock>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                </GridView>
+            </ListView.View>
+
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="SelectionChanged">
+                    <i:InvokeCommandAction Command="{Binding SelectionChangedCommand}" 
+                                                   CommandParameter="{Binding ElementName=wdListBillDetail}"/>
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </ListView>
+
+        <Grid Grid.Row="3"
+              Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBox x:Name="txtnameproduct"
+                     Grid.Row="0" 
+                   IsEnabled="False"
+                     materialDesign:HintAssist.Hint="Tên sản phẩm"
+                     IsReadOnly="True"
+                     HorizontalContentAlignment="Left"
+                     Background="Transparent"
+                     FontFamily="Roboto"
+                     FontWeight="Regular"
+                     FontSize="15"
+                     Height="40"
+                     Padding="0"
+                     Text="{Binding tempProduct.Name}"
+                     materialDesign:HintAssist.Foreground="White"
+                     BorderBrush="White"
+                     Foreground="#DDDDDD"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Margin="20 0 10 0"
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+
+
+            <TextBox x:Name="txtid"
+                     Grid.Row="1" 
+                     IsEnabled="False"
+                     materialDesign:HintAssist.Hint="Mã đơn hàng"
+                     IsReadOnly="True"
+                     HorizontalContentAlignment="Left"
+                     Background="Transparent"
+                     FontFamily="Roboto"
+                     FontWeight="Regular"
+                     FontSize="15"
+                     Height="40"
+                     Padding="0"
+                     Text="{Binding IdBill}"
+                     materialDesign:HintAssist.Foreground="White"
+                     BorderBrush="White"
+                     Foreground="#DDDDDD"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Margin="20 0 10 0"         
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+
+            <TextBox x:Name="txtnamecus"
+                     Grid.Row="2" 
+                     IsEnabled="False"
+                     materialDesign:HintAssist.Hint="Tên khách hàng"
+                     HorizontalContentAlignment="Left"
+                     Background="Transparent"
+                     FontFamily="Roboto"
+                     FontWeight="Regular"
+                     FontSize="15"
+                     Height="40"
+                     Padding="0"
+                     Text="{Binding tempCus.Name}"
+                     materialDesign:HintAssist.Foreground="White"
+                     BorderBrush="White"
+                     Foreground="#DDDDDD"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Margin="20 0 10 0"    
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+
+            <TextBox x:Name="sum"
+                     Grid.Row="3" 
+                     IsEnabled="False"
+                     materialDesign:HintAssist.Hint="Thành tiền"
+                     IsReadOnly="True"
+                     HorizontalContentAlignment="Left"
+                     VerticalContentAlignment="Top"
+                     Background="Transparent"
+                     FontFamily="Roboto"
+                     FontWeight="Regular"
+                     FontSize="15"
+                     Height="40"
+                     Padding="0"
+                     Text="{Binding tempDetailBill.FinalPrice,Converter={StaticResource PriceConverter }}"
+                     materialDesign:HintAssist.Foreground="White"
+                     BorderBrush="White"
+                     Foreground="#DDDDDD"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Margin="20 0 10 0"                 
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+        </Grid>
+
+
+
+        <Grid Grid.Row="3"
+              Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <TextBox x:Name="txtamount"
+                     Grid.Row="0" 
+                     IsEnabled="False"
+                     materialDesign:HintAssist.Hint="Số lượng"
+                     IsReadOnly="True"
+                     HorizontalContentAlignment="Left"
+                     VerticalContentAlignment="Top"
+                     Background="Transparent"
+                     FontFamily="Roboto"
+                     FontWeight="Regular"
+                     FontSize="15"
+                     Height="40"
+                     Padding="0"
+                     Text="{Binding tempDetailBill.Amount_Buy}"
+                     materialDesign:HintAssist.Foreground="White"
+                     BorderBrush="White"
+                     Foreground="#DDDDDD"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Margin="20 0 10 0"                   
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+
+            <TextBox x:Name="txtgiven"
+                     Grid.Row="1"
+                     IsEnabled="False"
+                     materialDesign:HintAssist.Hint="Shop tặng"
+                     HorizontalContentAlignment="Left"
+                     FontFamily="arial"
+                     FontWeight="ExtraLight"
+                     FontSize="15"
+                     IsReadOnly="True"
+                     Background="Transparent"
+                     Height="40"
+                     Padding="0"
+                     Text="{Binding tempDetailBill.Amount_Given}"
+                     materialDesign:HintAssist.Foreground="White"
+                     BorderBrush="White"
+                     Foreground="#DDDDDD"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Stretch"
+                     Margin="20 0 10 0"               
+                     Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                     />
+        </Grid>
+
+        <Grid Grid.Row="3"
+              Grid.Column="2">
+            <StackPanel Orientation="Vertical"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Bottom"
+                        Margin="20 0 20 0"
+                        Width="150">
+                <Button Command="{Binding BillChecked}"
+                        CommandParameter="{Binding ElementName=wdListBillDetail}"
+                        x:Name="Payment"
+                        FontWeight="Bold"
+                        FontSize="14"
+                        Content="Hoàn thành"
+                        BorderBrush="White"
+                        Foreground="White"
+                        FontFamily="Roboto" 
+                        RenderTransformOrigin="-0.594,0.031" 
+                        Height="35"
+                        Margin="5 0 0 5"/>
+
+                <Button Command="{Binding CancelCommand}"
+                        CommandParameter="{Binding ElementName=wdListBillDetail}" 
+                        Content="Hủy đơn hàng"
+                        x:Name="checkbillbtn_Copy1"
+                        FontWeight="Bold"
+                        FontSize="14"
+                        Padding="0"
+                        Background="#1D1D2C"
+                        BorderBrush="White"
+                        Foreground="#DDDDDD"
+                        FontFamily="Roboto" 
+                        RenderTransformOrigin="-0.594,0.031" 
+                        Height="35"
+                        Margin="5 0 0 5"
+                />
+
+                <Button Command="{Binding SeeProductCommand}"
+                        CommandParameter="{Binding ElementName=wdListBillDetail}" 
+                        Content="Xem sản phẩm"
+                        FontWeight="Bold"
+                        FontSize="14"
+                        Padding="0"
+                        VerticalAlignment="Bottom"
+                        Background="#1D1D2C"
+                        BorderBrush="White"
+                        Foreground="#DDDDDD"
+                        FontFamily="Roboto" 
+                        RenderTransformOrigin="-0.594,0.031" 
+                        Height="35"
+                        Margin="5 0 0 5"
+                        />
+
+                <Button Command="{Binding ExportCommand}"
+                        CommandParameter="{Binding ElementName=wdListBillDetail}" 
+                        Content="Xuất file Word"
+                        x:Name="checkbillbtn_Copy"
+                        FontWeight="Bold"
+                        FontSize="14"
+                        Padding="0"
+                        VerticalAlignment="Bottom"
+                        Background="#1D1D2C"
+                        BorderBrush="White"
+                        Foreground="#DDDDDD"
+                        FontFamily="Roboto" 
+                        RenderTransformOrigin="-0.594,0.031" 
+                        Height="35"
+                        Margin="5 0 0 0"
+                        />
+            </StackPanel>
+        </Grid>
+        
+        <Button Grid.Row="3"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                Command="{Binding DeleteChecked}"
+                CommandParameter="{Binding ElementName=wdListBillDetail}"
+                x:Name="Payment_Copy"
+                FontWeight="Bold"
+                FontSize="14"
+                Content="Xóa hoá đơn"
+                Height="35"
+                Width="150"
+                Background="#f8931f"
+                BorderBrush="White"
+                Foreground="White"
+                FontFamily="Roboto" 
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Right"
+                Margin="0 0 175 0"
+                Visibility="Visible"/>
+        
+        <Button Command="{Binding ExportExcelCommand}"
+                CommandParameter="{Binding ElementName=wdListBillDetail}" 
+                Content="Xuất file Excel"
+                x:Name="checkbillbtn_Copy2"
+                FontWeight="Bold"
+                FontSize="14"
+                Width="140"
+                Height="30"
+                Margin="0 0 20 0"
+                Padding="0"
+                materialDesign:ButtonAssist.CornerRadius="15"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Right"
+                BorderBrush="White"
+                FontFamily="Roboto" 
+                RenderTransformOrigin="-0.594,0.031" 
+                Grid.Row="0"
+                Grid.Column="2"/>
+    </Grid>
+</Page>
